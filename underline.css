@@ -1,0 +1,14 @@
+.nav-menu .nav-item a.nav-link.active:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #b3a8a8;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(0);
+}
+
+.nav-menu .nav-item a.nav-link.active:hover::after{
+    transform: scale(0.25);
+}
