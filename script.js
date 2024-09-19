@@ -8,3 +8,7 @@ function mobileMenu() {
     navMenu.classList.toggle("active");
 }
 
+setTimeout(() => {
+    document.getElementById("splash").classList.toggle("finish")
+    document.getElementById("splash").classList.toggle("remove")
+}, 2000)

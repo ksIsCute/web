@@ -180,3 +180,23 @@ iframe {
 .nav-menu .nav-item a.nav-link:hover::after{
     transform: scale(1);
 }
+
+.splash {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transition: all 2s;
+}
+
+.splash.finish {
+    opacity: 0%;
+}
+
+.splash.remove {
+    display: none;
+}
